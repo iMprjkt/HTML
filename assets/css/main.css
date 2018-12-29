@@ -1,7 +1,12 @@
+@font-face {
+  font-family: "cool";
+  src: url("/assets/fonts/indieflower.ttf");
+}
+
 body {
-  font-family: Helvetica;
+  font-family: cool;
   padding: 20px;
-  background-color: #C8F5E1;
+  background-color: #ffffff;
   line-height: 1.4em;
 }
 
@@ -20,5 +25,52 @@ body {
 }
 
 .address {
-  font-style: italic;
+  font-style: normal;
+}
+
+p {
+  color: #5e0298;
+  background-color: PapayaWhip;
+  font-family: cool;
+  letter-spacing: .05em;
+  word-spacing: .1em;
+}
+
+.camp {
+  color: #ff6600;
+}
+
+strong {
+  color: teal;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #000000;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #151814;
+  background-color: #DFFFD6;
+  text-transform: lowercase;
+  font-weight: normal;
+}
+
+ul {
+  background-color: HoneyDew;
+}
+
+#hex {
+  color: #00ff66
+}
+
+.read {
+  line-height: 2em;
 }
