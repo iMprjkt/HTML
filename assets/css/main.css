@@ -18,3 +18,7 @@ body {
   border: 4px dashed black;
   border-radius: 4px;
 }
+
+.address {
+  font-style: italic;
+}
